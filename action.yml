@@ -1,14 +1,14 @@
-name: 'create-7z-action'
-description: 'Create 7z Archive using GitHub Actions'
+name: 'extract-7z-action'
+description: 'Extract 7z/zip/.. Archive using GitHub Actions'
 branding:
   icon: archive
-  color: red
+  color: blue
 inputs:
   pathSource:
-    description: 'file/folder path to compress'
+    description: 'archive path to extract'
     required: true
   pathTarget:
-    description: '7z archive path to write'
+    description: 'path to place the extract'
     required: true
 runs:
   using: 'node12'

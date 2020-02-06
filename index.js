@@ -6,15 +6,15 @@ async function run() {
     const source = core.getInput('pathSource');
     const target = core.getInput('pathTarget');
 
-    core.info("packing " + source + " into " + target);
+    core.info("extracting " + source + " into " + target);
     const err = await new Promise((resolve, _) => {
-      _7z.pack(source, target, function(e) {
+      _7z.unpack(source, target, function(e) {
         resolve(e);
       });
     });
 
     if (err !== null) {
-      core.setFailed("create 7z archive failed: " + err);
+      core.setFailed("extract archive failed: " + err);
       return;
     }
   } 

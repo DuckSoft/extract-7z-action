@@ -1,7 +1,7 @@
-## create-7z-action
+## extract-7z-action
 Params:
 
-* pathSource
-* pathTarget
+* pathSource - the file to unpack
+* pathTarget - the pos to unpack to
 
 Done.

@@ -1,5 +1,5 @@
 {
-  "name": "create-7z-action",
+  "name": "extract-7z-action",
   "version": "1.0.0",
   "description": "Create 7z Archive using GitHub Actions",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DuckSoft/create-7z-action"
+    "url": "git+https://github.com/DuckSoft/extract-7z-action"
   },
   "keywords": [
     "GitHub",
@@ -19,9 +19,9 @@
   "author": "GitHub",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DuckSoft/create-7z-action/issues"
+    "url": "https://github.com/DuckSoft/extract-7z-action/issues"
   },
-  "homepage": "https://github.com/DuckSoft/create-7z-action",
+  "homepage": "https://github.com/DuckSoft/extract-7z-action",
   "dependencies": {
     "7zip-min": "^1.1.1",
     "@actions/core": "^1.1.1"
